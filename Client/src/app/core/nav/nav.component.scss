@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  padding: 0 30rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__nav-logo {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+
+    opacity: 1;
+  }
+
+  &__btn-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__nav-buttons {
+    padding: 0 2rem;
+
+    opacity: 1;
+    color: #fff;
+  }
+
+  &__nav-routes {
+    padding: 0 2rem;
+
+    opacity: 1;
+  }
+}
+
+.btn-container {
+  display: flex;
+}

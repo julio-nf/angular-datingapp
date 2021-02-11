@@ -1,0 +1,20 @@
+<nav mat-tab-nav-bar [backgroundColor]="background">
+  <div class="container">
+    <div>
+      <a mat-tab-link class="container__nav-logo">Dating App</a>
+      <a
+        mat-tab-link
+        class="container__nav-routes"
+        *ngFor="let link of links"
+        (click)="activeLink = link"
+        [active]="activeLink == link"
+      >
+        {{ link }}
+      </a>
+    </div>
+    <div class="btn-container">
+      <a mat-button class="container__nav-buttons">Login</a>
+      <a mat-button class="container__nav-buttons">Cadastrar</a>
+    </div>
+  </div>
+</nav>
